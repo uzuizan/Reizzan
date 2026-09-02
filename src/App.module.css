@@ -5,14 +5,14 @@
 :root {
   font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #1f2937;
-  background: #f5f6f8;
+  background: #fdf2f8;
   font-synthesis: none;
 }
 
 body {
   margin: 0;
   min-width: 320px;
-  background: #f5f6f8;
+  background: #fdf2f8;
 }
 
 button,
@@ -37,7 +37,7 @@ button {
   gap: 20px;
   margin-bottom: 28px;
   padding-bottom: 22px;
-  border-bottom: 1px solid #e2e5ea;
+  border-bottom: 1px solid #fbcfe8;
 }
 
 .hero-icon {
@@ -45,16 +45,15 @@ button {
   height: 64px;
   display: grid;
   place-items: center;
-  background: #16233d;
+  background: #db2777;
   border-radius: 8px;
   font-size: 30px;
-  filter: grayscale(0.15);
 }
 
 .eyebrow,
 .section-label {
   margin: 0 0 6px;
-  color: #64748b;
+  color: #db2777;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -91,9 +90,9 @@ h1 {
 
 .card {
   background: #ffffff;
-  border: 1px solid #e2e5ea;
+  border: 1px solid #fbcfe8;
   border-radius: 8px;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+  box-shadow: 0 1px 2px rgba(219, 39, 119, 0.06);
   padding: 24px;
 }
 
@@ -113,7 +112,7 @@ h1 {
   gap: 12px;
   margin-bottom: 20px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #edf0f4;
+  border-bottom: 1px solid #fce7f3;
 }
 
 h2 {
@@ -127,11 +126,11 @@ h2 {
 .count {
   font-size: 11px;
   font-weight: 600;
-  color: #64748b;
-  background: #f1f5f9;
+  color: #be185d;
+  background: #fce7f3;
   padding: 5px 10px;
   border-radius: 4px;
-  border: 1px solid #e2e5ea;
+  border: 1px solid #fbcfe8;
 }
 
 form {
@@ -152,7 +151,7 @@ fieldset {
 input:not([type="radio"]):not([type="checkbox"]),
 select {
   width: 100%;
-  border: 1px solid #cbd2dc;
+  border: 1px solid #f5c1dd;
   border-radius: 6px;
   padding: 10px 12px;
   outline: none;
@@ -164,8 +163,8 @@ select {
 
 input:not([type="radio"]):not([type="checkbox"]):focus,
 select:focus {
-  border-color: #16233d;
-  box-shadow: 0 0 0 3px rgba(22, 35, 61, 0.1);
+  border-color: #db2777;
+  box-shadow: 0 0 0 3px rgba(219, 39, 119, 0.12);
 }
 
 fieldset {
@@ -188,7 +187,7 @@ legend {
   display: flex;
   align-items: center;
   gap: 7px;
-  border: 1px solid #cbd2dc;
+  border: 1px solid #f5c1dd;
   padding: 9px 12px;
   border-radius: 6px;
   font-weight: 500;
@@ -198,14 +197,14 @@ legend {
 }
 
 .radio-label:has(input:checked) {
-  border-color: #16233d;
-  background: #f4f6f9;
-  color: #16233d;
+  border-color: #db2777;
+  background: #fdf2f8;
+  color: #be185d;
   font-weight: 600;
 }
 
 .radio-label input {
-  accent-color: #16233d;
+  accent-color: #db2777;
 }
 
 .error {
@@ -235,13 +234,13 @@ legend {
 
 .primary-btn {
   margin-top: 2px;
-  background: #16233d;
+  background: #db2777;
   color: white;
   transition: background 0.15s;
 }
 
 .primary-btn:hover {
-  background: #0d1730;
+  background: #be185d;
 }
 
 .toolbar {
@@ -266,12 +265,12 @@ legend {
 }
 
 .toggle input {
-  accent-color: #16233d;
+  accent-color: #db2777;
 }
 
 .table-wrap {
   overflow-x: auto;
-  border: 1px solid #e2e5ea;
+  border: 1px solid #fbcfe8;
   border-radius: 8px;
 }
 
@@ -285,18 +284,18 @@ th,
 td {
   text-align: left;
   padding: 12px 14px;
-  border-bottom: 1px solid #edf0f4;
+  border-bottom: 1px solid #fce7f3;
   font-size: 12px;
 }
 
 th {
-  background: #f8fafc;
-  color: #475569;
+  background: #fdf2f8;
+  color: #be185d;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  border-bottom: 1px solid #e2e5ea;
+  border-bottom: 1px solid #fbcfe8;
 }
 
 tbody tr {
@@ -305,7 +304,7 @@ tbody tr {
 
 tbody tr:hover,
 .selected-row {
-  background: #f8fafc;
+  background: #fdf2f8;
 }
 
 tbody tr {
@@ -320,16 +319,17 @@ tbody tr:last-child td {
   display: inline-block;
   border-radius: 4px;
   padding: 4px 8px;
-  background: #eef1f5;
-  color: #374151;
+  background: #fce7f3;
+  color: #be185d;
   font-weight: 600;
   font-size: 11px;
-  border: 1px solid #e2e5ea;
+  border: 1px solid #fbcfe8;
 }
 
 .low-stock {
   font-weight: 700;
-  color: #b42318;
+  color: #be123c;
+  text-decoration: underline;
 }
 
 .empty {
@@ -355,12 +355,12 @@ tbody tr:last-child td {
 
 .secondary-btn {
   background: white;
-  border-color: #cbd2dc;
-  color: #374151;
+  border-color: #f5c1dd;
+  color: #be185d;
 }
 
 .secondary-btn:hover:not(:disabled) {
-  background: #f8fafc;
+  background: #fdf2f8;
 }
 
 .secondary-btn:disabled {
@@ -380,8 +380,8 @@ tbody tr:last-child td {
   display: grid;
   place-items: center;
   border-radius: 8px;
-  background: #f1f5f9;
-  border: 1px solid #e2e5ea;
+  background: #fce7f3;
+  border: 1px solid #fbcfe8;
   font-size: 48px;
 }
 
@@ -410,8 +410,8 @@ tbody tr:last-child td {
 
 .detail-grid div {
   padding: 11px;
-  background: #f8fafc;
-  border: 1px solid #edf0f4;
+  background: #fdf2f8;
+  border: 1px solid #fce7f3;
   border-radius: 6px;
 }
 
@@ -442,21 +442,21 @@ tbody tr:last-child td {
 }
 
 .role-badge.merchant {
-  background: #16233d;
+  background: #db2777;
   color: white;
 }
 
 .role-badge.consumer {
-  background: #e2e5ea;
-  color: #374151;
+  background: #fbcfe8;
+  color: #9d174d;
 }
 
 .hook-note {
   margin-top: 20px;
   padding: 11px 13px;
-  border-left: 3px solid #16233d;
-  background: #f8fafc;
-  color: #475569;
+  border-left: 3px solid #db2777;
+  background: #fdf2f8;
+  color: #9d174d;
   font-size: 11px;
 }
 
