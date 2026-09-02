@@ -78,7 +78,7 @@ h3 {
 h1 {
   margin-bottom: 7px;
   font-size: clamp(27px, 4vw, 40px);
-  line-height: 1.1;
+  line-height: 1.2;
   background: linear-gradient(120deg, #3b82f6, #6366f1 60%, #8b5cf6);
   -webkit-background-clip: text;
   background-clip: text;
@@ -87,7 +87,7 @@ h1 {
 
 .subtitle {
   margin-bottom: 0;
-  color: #7686b8;
+  color: #66759f;
   max-width: 800px;
   line-height: 1.5;
 }
@@ -260,13 +260,13 @@ legend {
   margin-top: 3px;
   background: linear-gradient(135deg, #60a5fa, #6366f1 55%, #a78bfa);
   color: white;
-  box-shadow: 0 10px 22px rgba(99, 102, 241, 0.35);
+  box-shadow: 0 8px 18px rgba(99, 102, 241, 0.26);
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
 .primary-btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 14px 26px rgba(99, 102, 241, 0.45);
+  box-shadow: 0 11px 22px rgba(99, 102, 241, 0.34);
 }
 
 .toolbar {
@@ -357,7 +357,7 @@ tbody tr:last-child td {
   border-radius: 999px;
   padding: 4px 10px;
   background: linear-gradient(135deg, #e6ecff, #ece6ff);
-  color: #4c4fc9;
+  color: #4c5fc9;
   font-weight: 700;
 }
 
@@ -432,7 +432,7 @@ tbody tr:last-child td {
 }
 
 .profile-main p {
-  color: #7686b8;
+  color: #66759f;
   margin-bottom: 17px;
 }
 
@@ -476,7 +476,7 @@ tbody tr:last-child td {
 }
 
 .role-badge.consumer {
-  background: linear-gradient(135deg, #c4b5fd, #a78bfa);
+  background: linear-gradient(135deg, #a78bfa, #8b5cf6);
   color: white;
 }
 
